@@ -5,13 +5,14 @@
 1) 깃허브 리포지토리 만들기
 2) git clone 하기
 3) 아무파일 하나 올리기(주로 README.md)
-echo "# Playground" >> README.md  
+~~echo "# Playground" >> README.md  
 git init  
 git add README.md  
 git commit -m "first commit"  
 git branch -M main  
 git remote add origin (해당 리포지토리 주소)  
-git push -u origin main  
+git push -u origin main~~  
+그냥 아무파일이나 git push 해도 ㅇㅋ
 
 
 #### 2.리포지토리 정리
