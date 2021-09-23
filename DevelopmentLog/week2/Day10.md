@@ -132,7 +132,7 @@ react-route-dom 패키지를 이용할 계획이다.
 
 ## 리액트 3주차 3강(리액트에서 라우팅 처리하기1)  
 
-> (해당 프로젝트 폴더에서) yarn add react-route-dom  
+> (해당 프로젝트 폴더에서) yarn add react-router-dom  react-router
 
 공식문서 : https://reactrouter.com/web/guides/primary-components  
 
@@ -460,6 +460,7 @@ Add.js의 추가버튼을 눌렀을 때 전역 변수를 바꾸어 부모 컴포
 덕스🦆(ducks) 구조:  
 기능으로 묶어서 사용하자는 방법론  
 예를 들어 버킷리스트 => 버킷리스트의 action actionCreator, reducer를 한 파일에 넣어놓는 것.
+> yarn add redux react-redux
 
 ```javascript
 //모듈 만들기 위치: /src - /redux - /modules - bucket.js
