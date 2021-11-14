@@ -44,7 +44,7 @@ SpringBoot, Redis, Websocket, swagger, queryDSL
 기술스택: axios, styled-component, react-form  
 동작원리: form tag 안에 있는 인풋 값을 읽어서 axios call
 
-유저 인증 확인(auth)
+유저 인증 확인(auth): 헤더에 있는 토큰을 확인해서
 
 비밀번호 변경
 
@@ -53,3 +53,7 @@ SpringBoot, Redis, Websocket, swagger, queryDSL
 ---
 
 검색 + 무한스크롤
+
+검색 확장 => 블룸필터??
+
+리덕스 => 비지니스 모델 관련만 저장 ui 변경사항을 저장하는 건 비효율적, 성능적 이슈가 발생할 수도 있음, 유지보수가 힘듦 리덕스는 최대한 지양
