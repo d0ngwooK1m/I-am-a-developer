@@ -2,6 +2,13 @@
 
 ## 함수형 프로그래밍
 
+지연 함수들의 특징:
+
+값을 위에서 부터 하나씩 내려준다. 모든 배열들을 정리하고 갔던 기존의 방식과 다르다.
+
+함수를 어떻게 조합해도 같은 결과가 나온다.  
+[[mapping, mapping], [filtering, filtering], [mapping, mapping]] = [[mapping, filtering, mapping], [mapping, filtering, mapping]]
+
 ## 코어 자바스크립트
 
 클로저: 상위 함수가 종료된 시점에도 다시 참조할 수 있는 변수가 존재하는 함수들의 모임
